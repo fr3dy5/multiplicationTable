@@ -27,6 +27,7 @@ if (!int.TryParse(Console.ReadLine(), out endCol)) {
     Console.WriteLine(invalid);
 }
 
+//code math only works with equal numbers on each axis, table spacing only works with up to 2 digit numbers
 Console.Write(" ");
 for (int j = startRow; j <= endRow; j++) {
     Console.Write($"{j, 3}");
